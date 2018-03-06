@@ -14,6 +14,7 @@ parameters:
       ttl: 86400
       publisher:
         default:
+          enabled: false
       bind:
         host: ${_param:cluster_local_address}
         port: 8777
